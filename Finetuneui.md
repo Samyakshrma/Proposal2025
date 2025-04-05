@@ -76,6 +76,8 @@ The project will leverage:
 | 11-12  | Cloud integration (optional) and rigorous testing with different datasets and model architectures. |
 | 13-14  | Final testing, documentation, and submission, along with comprehensive user guides. |
 
+![image](https://github.com/user-attachments/assets/636485a6-0e3a-43a6-9c4b-9224a361e0ff)
+
 ---
 
 ## Expected Size of Project
