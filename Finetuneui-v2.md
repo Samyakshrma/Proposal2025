@@ -70,15 +70,8 @@ The project will leverage:
 
 The system will follow a **modular, loosely-coupled architecture** with the following components:
 
-```
-+----------------+       +------------------+       +--------------------+
-| User Interface | <---> | Backend (FastAPI)| <---> | Model Fine-tuner   |
-| (Streamlit/Gradio)     |                  |       | (PyTorch/TensorFlow)|
-+----------------+       +------------------+       +--------------------+
-         |                          |                          |
-         v                          v                          v
-  Dataset Upload UI       Preprocessing Engine        Training Monitor + Export
-```
+
+![Technical Plan Architecture Diagram](https://www.mermaidchart.com/raw/b1f9dba8-c417-4a8c-a92f-bf8a99d9e988?theme=light&version=v0.1&format=svg)
 
 Cloud integrations (Vertex AI, GCS) will be kept optional and abstracted behind a config flag to ensure local usability.
 
