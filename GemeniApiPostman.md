@@ -121,7 +121,12 @@ The project is modular and will follow a layered approach:
 7. **User Tutorials & Onboarding**  
    - Build a Postman "Intro Walkthrough" using documentation tabs  
    - Embed examples and troubleshooting steps  
-   - Write external markdown guides for GitHub README and dev blog  
+   - Write external markdown guides for GitHub README and dev blog
+
+---
+##  Architecture Diagram
+
+![image](https://www.mermaidchart.com/raw/ebbf6d65-6c23-4878-a870-d8e17e45d571?theme=light&version=v0.1&format=svg)
 
 ---
 
@@ -137,6 +142,7 @@ The project is modular and will follow a layered approach:
 | 11-12  | Build GitHub Action for auto-update of collections and docs               |
 | 13-14  | Polish workspace, perform QA, create final video demo and handoff docs    |
 
+![image](https://www.mermaidchart.com/raw/ebbf6d65-6c23-4878-a870-d8e17e45d571?theme=light&version=v0.1&format=svg)
 ---
 
 ## Expected Size of Project  
