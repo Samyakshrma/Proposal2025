@@ -142,7 +142,7 @@ The project is modular and will follow a layered approach:
 | 11-12  | Build GitHub Action for auto-update of collections and docs               |
 | 13-14  | Polish workspace, perform QA, create final video demo and handoff docs    |
 
-![image](https://www.mermaidchart.com/raw/ebbf6d65-6c23-4878-a870-d8e17e45d571?theme=light&version=v0.1&format=svg)
+![image](https://www.mermaidchart.com/raw/5f491d45-61b9-4163-a130-4c6ea5dae666?theme=light&version=v0.1&format=svg)
 ---
 
 ## Expected Size of Project  
