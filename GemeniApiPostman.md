@@ -1,4 +1,4 @@
-# Google Summer of Code 2024 Proposal: Gemini API Workspace in Postman
+# Google Summer of Code 2025 Proposal: Gemini API Workspace in Postman
 
 ## Personal Information  
 **Name:** Samyak Sharma  
@@ -79,6 +79,49 @@ This project revolves around Postman and RESTful API tooling. Key tools and plat
 - **Test Scripts** – JavaScript assertions (via Chai.js in Postman)  
 - **GitHub Actions** – CI automation for syncing API updates  
 - **Google Gemini API** – The target platform (requires understanding auth flows, endpoints, rate limits, etc.)
+
+---
+## Technical Plan
+
+### 🧱 Architecture Overview
+
+The project is modular and will follow a layered approach:
+
+1. **Core Collections**  
+   - Design and organize base Gemini API collections with tags (`text`, `chat`, `image`, `code`)  
+   - Include exhaustive variations for critical parameters and functionality  
+
+2. **Environment Management**  
+   - Design JSON-based Postman Environments:  
+     - `dev_environment.json` with mock values  
+     - `prod_environment.json` with credential placeholders  
+   - Provide markdown instructions for secure and correct setup  
+
+3. **Documentation Integration**  
+   - Leverage Postman's in-app markdown docs and comment blocks  
+   - Embed links to external Gemini docs, and examples for each endpoint  
+
+4. **Testing Suite**  
+   - Add JavaScript-based test scripts using Postman’s `pm.test()` for:  
+     - Valid response schemas  
+     - Error condition coverage (e.g., expired token, malformed input)  
+   - Integrate response time and latency metrics  
+
+5. **Mock Servers**  
+   - Setup mock endpoints that mirror Gemini’s response format  
+   - Support common endpoints for offline development scenarios  
+
+6. **CI/CD Auto-Sync**  
+   - Create a GitHub Action that:  
+     - Pulls Gemini changelogs/OpenAPI spec weekly  
+     - Parses updates (using Python or JS parser)  
+     - Modifies collection JSONs if updates are non-breaking  
+     - Opens a pull request for breaking changes with changelog summaries  
+
+7. **User Tutorials & Onboarding**  
+   - Build a Postman "Intro Walkthrough" using documentation tabs  
+   - Embed examples and troubleshooting steps  
+   - Write external markdown guides for GitHub README and dev blog  
 
 ---
 
