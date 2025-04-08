@@ -97,7 +97,8 @@ This will lower the barrier for building intelligent agents and provide a testbe
 ---
 
 ### **Architecture Diagram**
-![Architecture Diagram](Screenshot%20from%202025-04-08%2014-57-08.png)
+![image](https://www.mermaidchart.com/raw/b1f9dba8-c417-4a8c-a92f-bf8a99d9e988?theme=light&version=v0.1&format=svg)
+
 
 ---
 
